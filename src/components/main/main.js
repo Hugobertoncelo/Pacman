@@ -53,14 +53,6 @@ export default function Main({ reactRoot, user }) {
       </button>
     ) : (
       <div>
-        <a href="/login">
-          <button className="login-button">
-            Conecte-se</button>
-        </a>
-        <a href="/signup">
-          <button className="signup-button">
-            Inscrever-se</button>
-        </a>
       </div>
     );
   };
@@ -87,7 +79,7 @@ export default function Main({ reactRoot, user }) {
       {signupInstructions()}
       <div className="register">
         <button className="play-button" id="play-button" onClick={handleSubmit}>
-          Play
+          Jogar
         </button>
       </div>
       <p className="name-error" id="name-error"></p>
